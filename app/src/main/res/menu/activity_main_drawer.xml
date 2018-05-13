@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="UNREADS">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_camera"
+                    android:icon="@drawable/ic_hash"
+                    android:title="ama_sessions" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_hash"
+                    android:title="announcements" />
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/ic_hash"
+                    android:title="collab_prjcts" />
+                <item
+                    android:id="@+id/nav_external_resources"
+                    android:icon="@drawable/ic_hash"
+                    android:title="external_resources" />
+                <item
+                    android:id="@+id/nav_git_github"
+                    android:icon="@drawable/ic_hash"
+                    android:title="git_github" />
+                <item
+                    android:id="@+id/introductions"
+                    android:icon="@drawable/ic_hash"
+                    android:title="introductions" />
+                <item
+                    android:id="@+id/nav_live_help"
+                    android:icon="@drawable/ic_hash"
+                    android:title="live_help" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Channels">
+        <menu>
+            <item
+                android:id="@+id/nav_ama_official"
+                android:icon="@drawable/ic_hash"
+                android:title="ama_official" />
+            <item
+                android:id="@+id/nav_general_discuss"
+                android:icon="@drawable/ic_hash"
+                android:title="general_discuss" />
+        </menu>
+    </item>
+
+</menu>
